@@ -1,0 +1,26 @@
+.footer {
+  --lineHeightBody: 1.1;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+
+  /* padding: var(--space3XL) var(--spaceL); */
+  padding: 20px 20px;
+  z-index: var(--zIndex2);
+  position: relative;
+  color: var(--colorTextLight);
+  
+  background: linear-gradient(155deg, rgba(67,161,202,1) 19%, rgba(121,121,218,1) 52%, rgba(184,150,221,1) 95%);
+}
+
+.link {
+  display: inline-flex;
+}
+
+.date {
+  padding-right: var(--spaceXS);
+  display: inline-flex;
+  margin-top:"20px";}
